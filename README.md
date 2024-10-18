@@ -15,7 +15,7 @@
 ### Steps and Setup the project
 - **Clone the repo**
 ```bash
-git clone https://github.com/AdityaThorat679/URL-shortening-API_frontend_project.git
+git clone https://github.com/sujal617/url-shortneing-.git
 ```
 Here, we are cloning our repo into our local system to check if the code is running and to add the Dockerfile to it.
 
@@ -110,7 +110,7 @@ pipeline {
         stage("Code"){
             steps {
                 echo "Clone the code"
-                git url:"https://github.com/AdityaThorat679/URL-shortening-API_frontend_project.git", branch: "main"
+                git url:"https://github.com/sujal617/url-shortneing-.git", branch: "main"
             }
         }
         stage("Bulid"){
